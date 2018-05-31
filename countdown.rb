@@ -6,7 +6,6 @@ def countdown(n)
     end
     puts "#{counter} SECOND(S)!"
     counter = counter - 1
-    break if counter == 1
 
   end
 end
