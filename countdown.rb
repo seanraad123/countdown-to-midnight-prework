@@ -3,6 +3,7 @@ def countdown(n)
   for i in 1..n do
     if counter == 1
       return "HAPPY NEW YEAR!"
+      break
     end
     puts "#{counter} SECOND(S)!"
     counter = counter - 1
