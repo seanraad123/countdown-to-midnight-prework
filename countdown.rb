@@ -16,6 +16,7 @@ def countdown_with_sleep(n)
   for i in 1..n do
     if counter == 1
       puts "#{counter} SECOND(S)!"
+      sleep(1)
       return "HAPPY NEW YEAR!"
     end
     puts "#{counter} SECOND(S)!"
