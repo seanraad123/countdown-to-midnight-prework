@@ -3,3 +3,5 @@ def countdown(n)
     puts "#{n} SECOND(S)!"
   end
 end
+
+countdown(10)
