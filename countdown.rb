@@ -1,7 +1,7 @@
 def countdown(n)
   counter = n
   for i in 1..n do
-    puts "#{n} SECOND(S)!"
+    puts "#{counter} SECOND(S)!"
     counter = counter - 1
   end
 end
