@@ -1,4 +1,3 @@
-#write your code here
-
-def countdown
+def countdown(n)
+  puts '#{n} SECOND(S)!'
 end
