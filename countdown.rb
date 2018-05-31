@@ -1,3 +1,5 @@
 def countdown(n)
-  puts '#{n} SECOND(S)!'
+  for i in 1..n do
+    puts "#{n} SECOND(S)!"
+  
 end
